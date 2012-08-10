@@ -32,6 +32,7 @@ namespace SpecsFor.Mvc.Demo.AcceptanceTests
 			}
 
 			[Test]
+			[Ignore]
 			public void then_it_displays_the_current_day_of_the_week()
 			{
 				SUT.FindDisplayFor<AboutViewModel>()
@@ -39,6 +40,7 @@ namespace SpecsFor.Mvc.Demo.AcceptanceTests
 			}
 
 			[Test]
+			[Ignore]
 			public void then_it_knows_the_user_is_authenticated()
 			{
 				SUT.FindDisplayFor<AboutViewModel>()
@@ -46,6 +48,7 @@ namespace SpecsFor.Mvc.Demo.AcceptanceTests
 			}
 
 			[Test]
+			[Ignore]
 			public void then_it_displays_the_correct_business_days()
 			{
 				SUT.FindDisplayFor<AboutViewModel>()
